@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — don't commit raw audio (too large)
+data/set_a/
+data/set_b/
+data/*.zip
+data/*.csv
+*.wav
+*.mp3
+*.flac
+
+# Keep sample files
+!data/samples/*.wav
+
+# Model outputs — optional (comment out if you want to commit results)
+results/*.png
+results/*.pkl
+results/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+
+# Logs
+*.log
+logs/
